@@ -21,18 +21,16 @@ TF-IDF векторчлол + машин сургалтын 3 өөр алгор�
 
 ## 📌 2. Dataset Information
 
-### ✔ Source  
-**HuffPost News Category Dataset**  
-Dataset нь нийт ~200,000 мэдээний:  
+Source: HuffPost News Category Dataset
+Dataset нь нийт ~200,000 мэдээний өгөгдөлтэй:  
 - title  
 - short_description  
 - category  
 
 зэрэг багануудтай JSON Lines форматтай.
 
-Dataset эх сурвалц:  
-- Kaggle (HuffPost News Category)  
-- Public domain, research use permitted  
+Dataset эх сурвалж:  
+- Kaggle (HuffPost News Category)   
 
 ### ✔ Data Preparation  
 - `title` + `short_description` → нэг текст болгон нэгтгэсэн  
@@ -40,12 +38,9 @@ Dataset эх сурвалц:
 - Цэвэрлэх (`[^a-z\s]`)  
 - Stopwords устгах (NLTK)  
 - Lemmatization (WordNet)  
-- Category balancing: нэг ангиллаас **1000 ширхэг** сонгосон (`max_per_category=1000`)
-
+- Category balancing: нэг ангиллаас **1000 мөр өгөгдөл ширхэг** сонгосон (`max_per_category=1000`)
 ---
-
 ## 📌 3. Installation
-
 ```bash
 git clone https://github.com/Suheezx/text_classification.git
 cd project-folder
