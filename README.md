@@ -40,7 +40,7 @@ Dataset эх сурвалж:
 - Lemmatization (WordNet)  
 - Category balancing: нэг ангиллаас **1000 мөр өгөгдөл ширхэг** сонгосон (`max_per_category=1000`)
 ---
-## 📌 1. Project Description  
+## 📌 3. Run app  
 
 Төсөлд дараах боломжууд багтсан:  
 - text_classification
