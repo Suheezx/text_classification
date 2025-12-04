@@ -44,3 +44,10 @@ Dataset эх сурвалж:
 ```bash
 git clone https://github.com/Suheezx/text_classification.git
 cd project-folder
+---
+## 📌 4.run programm 
+
+    1. text_classification
+       - ажиллаж дууссаны дараа confusion matrix гарч ирнэ уг процессыг хаан дараагын үйлдлүүдыг хийнэ.
+    2. preprocess.py
+    3. app.py
