@@ -40,7 +40,14 @@ Dataset эх сурвалж:
 - Lemmatization (WordNet)  
 - Category balancing: нэг ангиллаас **1000 мөр өгөгдөл ширхэг** сонгосон (`max_per_category=1000`)
 ---
-## 📌 3. Installation
+## 📌 3.run programm 
+
+   -1. text_classification
+       - ажиллаж дууссаны дараа confusion matrix гарч ирнэ уг процессыг хаан дараагын үйлдлүүдыг хийнэ.
+    -2. preprocess.py
+    -3. app.py
+---
+## 📌 4. Installation
 ```bash
 git clone https://github.com/Suheezx/text_classification.git
 cd project-folder
